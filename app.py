@@ -24,5 +24,7 @@ def about():
 def ContactUs():
     contact=input("Enter Your Contact please!")
     return render_template("Contact.html",data2={"contact":contact})
+
+
 if __name__ == "__main__":
     app.run(debug=True)
